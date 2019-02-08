@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Calculator</title>
+		<meta charset="utf-8">
+		<script type="text/javascript">
+			function square() {
+				var num = document.getElementById("n1");
+				num.value = num.value*num.value;
+			}
+		</script>
+	</head>
+	<body>
+		<h1>Calculadora de Pier Paolo Zini</h1>
+		Number:
+		<input type="text" id="n1">
+		<p>
+			<button onclick="square()"> x^2 </button>
+		</p>
+	</body>
+</html>
